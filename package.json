@@ -1,0 +1,10 @@
+{
+  "name": "macropad-configurator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based WebHID configurator for CH57x 3-key macropads",
+  "scripts": {
+    "test": "node --test tests/protocol.test.cjs",
+    "start": "python start.py"
+  }
+}
